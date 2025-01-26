@@ -1,0 +1,52 @@
+List Of Topics :
+
+Array
+Strings
+Sorting
+Searching
+Hashing
+Stack
+Queue
+Heaps
+Linked List
+Tree (Binary Tree, BST)
+Trie, Segment Tree
+Graphs
+DP + DP on Tree
+Disjoint Set
+
+
+Good Questions :
+
+Two Pointers | Greedy :
+1. Separate black and white balls
+2. Number of subarrays with bounded maximum : Think in way count(x) gives number of subarrays with maximum as x. count(r) - count(l) for the range in question
+
+Queue :
+1. Dota2 Senate -> Greedy, Queue
+
+Stack :
+1. 132 Pattern ->
+2. Create Maximum Number -> Monotonic Stack + Greedy (Create max number using k-i digits of arr1, and i digits of arr2 (monotonic stack), merge them, keep the max in ans)
+3. Beatiful Tower -> Use two increasing stacks, one from left, one from right, to get sum of array if elements were in increasing order
+4. Car Fleet -> Sort on the basis of car's position. example, if a car is at 5th position, and another car is at 2nd position, even if the 2nd car is faster, it will at least 		take time which is required for car at 5th position. Add time required in the stack in increasing order.
+
+
+Heap :
+1. Furthest building you can reach
+2. Maximum number of eaten apples -> When the options you have to use increase as you traverse through the array based on some max or min value of some element or combo of 				     element, think of pushing new element to the heap, and then pop from max heap / min heap, and use for the "i"th iteration accordingly.
+3.
+
+
+Graph :
+1. Number of swaps required to make array sorted -> Graph Cycle
+
+
+DP :
+1. Cherry pickup -> (i+j will be equal for both the tracks if considered both path starting from the same origin point)
+2.
+
+
+DP on Tree :
+1. Placing camera on a tree
+2. Sum of Distances in Tree
