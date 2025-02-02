@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 
 public class InsertInterval {
+    // Better solution is to divide into 3 parts
+    // First part, when all the intervals are before the new interval. Insert them simply. All their end should be lesser than new interval start.
+    // Second part is when all the intervals are overlapping. The end of the new interval is greater than or equal to start of the interval[i], then it is overlapping.
+    // Third part, add all the remaining intervals
     class Solution {
         public int[][] insert(int[][] intervals, int[] newInterval) {
             int n = intervals.length;
