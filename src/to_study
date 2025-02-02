@@ -29,12 +29,12 @@ Stack :
 1. 132 Pattern ->
 2. Create Maximum Number -> Monotonic Stack + Greedy (Create max number using k-i digits of arr1, and i digits of arr2 (monotonic stack), merge them, keep the max in ans)
 3. Beatiful Tower -> Use two increasing stacks, one from left, one from right, to get sum of array if elements were in increasing order
-4. Car Fleet -> Sort on the basis of car's position. example, if a car is at 5th position, and another car is at 2nd position, even if the 2nd car is faster, it will at least 		take time which is required for car at 5th position. Add time required in the stack in increasing order.
+4. Car Fleet -> Sort on the basis of car's position. example, if a car is at 5th position, and another car is at 2nd position, even if the 2nd car is faster, it will at least take time which is required for car at 5th position. Add time required in the stack in increasing order.
 
 
 Heap :
 1. Furthest building you can reach
-2. Maximum number of eaten apples -> When the options you have to use increase as you traverse through the array based on some max or min value of some element or combo of 				     element, think of pushing new element to the heap, and then pop from max heap / min heap, and use for the "i"th iteration accordingly.
+2. Maximum number of eaten apples -> When the options you have to use increase as you traverse through the array based on some max or min value of some element or combo of element, think of pushing new element to the heap, and then pop from max heap / min heap, and use for the "i"th iteration accordingly.
 3.
 
 
